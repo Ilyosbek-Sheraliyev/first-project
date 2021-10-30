@@ -1,0 +1,29 @@
+/*mijozlar qismi*/
+.mijozlar{
+    margin-top: 150px;
+}
+ .mijozlar-info{
+     display: flex;
+     width: 80%;
+     margin: 0 auto;
+ }
+ .mijozlar-image img{
+     width: 100%;
+ }
+ .mijozlar-paragraph{
+     margin-left: 50px;
+ }
+ .mijozlar-paragraph p{
+     color: #797979;
+ }
+ .mijozlar-paragraph h2{
+     color: #05364E;
+ }
+ .mijozlar-stars{
+     color: yellow;
+ }
+ .disabled{
+     color: grey;
+ }
+
+ 

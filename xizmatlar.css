@@ -1,0 +1,33 @@
+/*xizmatlar section*/
+.xizmatlar{
+    margin-top: 150px;
+}
+.xizmatlar-block{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #F8FAFF;
+    width: 30%;
+    text-align: center;
+    transition: 0.3s;
+}
+.xizmatlar-block:hover{
+    background-color: #5f30ff;
+    color: white;
+}
+.xizmatlar-block a{
+    color:black;
+    text-decoration: none;
+}
+.xizmatlar-block a:hover{
+    color: white;
+}
+.wrapper-xizmatlar__blog{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.xizmatlar-info{
+    margin-left:220px ;
+    margin-top: 50px;
+}

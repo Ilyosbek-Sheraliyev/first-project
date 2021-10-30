@@ -1,0 +1,43 @@
+.blog{
+    margin-top: 150px;
+}
+.blog-admin{
+    display: flex;
+}
+.blog-admin i{
+    padding-right: 10px;
+    top: -10px;
+}
+.blog-admin p{
+    padding-right: 10px;
+
+}
+.blog-admin__calendar{
+    display: flex;
+}
+.blog-admin__post{
+    display: flex;
+    margin:0px 30px;
+}
+.wrapper-blog__maqola{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.blog-maqola{
+    box-sizing: border-box;
+    width: 27%;
+    background-color: #F8FAFF;
+}
+.blog-maqola:hover{
+    background-color: white;
+}
+.blog-info{
+    padding:10px;
+}
+.blog-info a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #05364d;
+}

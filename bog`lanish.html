@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bog`lanish.css">
+    <title>Bog`lanish</title>
+</head>
+<body class="page-qismi">
+    <div class="boglanish-sarlavha"> 
+        <h1>Men bilan Bog`lanish</h1>
+    </div>
+    <div class="boglanish-wrapper">
+        <form action="surname" class="boglanish-form">
+            <label for="surname"></label>
+            <input type="text" placeholder="Familiyangizni kiriting" name="surname" id="surname">
+        </form>
+        <form action="name" class="boglanish-form">
+            <label for="name"></label>
+            <input type="text" placeholder="Ismingizni kiriting" name="name" id="name">
+        </form>
+        <form action="date" class="boglanish-form">
+            <label for="date"></label>
+            <input type="date" placeholder="Tugilgan sanangizni kiriting" name="date" id="date">
+        </form>
+        <form action="fuqarolik" class="boglanish-form">
+            <label for="fuqarolik">fuqarolik</label>
+                <select name="fuqarolik" id="fuqarolik" >
+                    <option value="UK">Angliya</option>
+                    <option value="Uz">O`zbekiston</option>
+                    <option value="USA">AQSH</option>
+                    <option value="Japan">Yaponiya</option>
+                </select>
+        </form>
+    </div>
+    <div>
+        <form action="information" class="boglanish-information__wrapper">
+            <textarea name="information" placeholder="xabaringizni kiriting" id="information" class="boglanish-information"></textarea>
+        </form>
+    </div>
+    <div class="boglanish-button">
+        <button type="button" class="boglanish-button__item">Xabar jo`natish</button>
+    </div>
+</body>
+</html>
